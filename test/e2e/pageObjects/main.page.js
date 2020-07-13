@@ -7,7 +7,7 @@ class Page {
   }
 
   addListItem (item) {
-    this.itemInput.setValue(item + '\n')
+    this.itemInput.setValue(`${item}\n`)
   }
 
   addListItems (items) {
