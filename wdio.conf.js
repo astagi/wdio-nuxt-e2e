@@ -147,6 +147,9 @@ exports.config = {
    * @param {Array.<Object>} capabilities list of capabilities details
    */
   async onPrepare (config, capabilities) {
+    if (process.env.NUXT_ENV_CI !== 'true') {
+      return
+    }
     console.log('⛰  Setting up...')
     const rootDir = path.resolve(__dirname, '.')
     const nuxtConfig = {
@@ -164,6 +167,9 @@ exports.config = {
     console.log('✨ Done!')
   },
   onComplete (exitCode, config, capabilities, results) {
+    if (process.env.NUXT_ENV_CI !== 'true') {
+      return
+    }
     console.log('👋 Shutting down server...')
     this.nuxtInstance.close()
   }
