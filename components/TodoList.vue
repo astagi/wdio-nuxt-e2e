@@ -1,6 +1,6 @@
 <template>
   <ul class="todolist list-group">
-    <li v-for="(todo, index) in todos" :key="index" class="todolist__element list-group-item" :class="{ done: todo.done }" @click="toggle(todo)">
+    <li v-for="(todo, index) in todos" :key="index" class="todolist__item list-group-item" :class="{ done: todo.done }" @click="toggle(todo)">
       {{ todo.text }}
     </li>
     <li class="list-group-item">
