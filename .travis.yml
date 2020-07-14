@@ -14,4 +14,4 @@ before_script:
   - sleep 3
 
 script:
-  - yarn test:e2e
+  - NUXT_ENV_CI=$CI yarn test:e2e
