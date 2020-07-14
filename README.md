@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/astagi/wdio-nuxt-e2e.svg?branch=master)](https://travis-ci.org/astagi/wdio-nuxt-e2e)
 
-Code of [Testing a Nuxt.js application using WebdriverIO tutorial](): learn how to test a Nuxt.js app with WebdriverIO following the [Page Object pattern](https://martinfowler.com/bliki/PageObject.html) and set up Continuous Integration with [TravisCI](https://travis-ci.org/) using WebdriverIO hooks.
+Code of [Testing a Nuxt.js application using WebdriverIO tutorial](https://dev.to/astagi/testing-a-nuxt-js-application-using-webdriverio-1215): learn how to test a Nuxt.js app with WebdriverIO following the [Page Object pattern](https://martinfowler.com/bliki/PageObject.html) and set up Continuous Integration with [TravisCI](https://travis-ci.org/) using WebdriverIO hooks.
 
 ## Build Setup 👷🏻‍♂️
 
