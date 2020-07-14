@@ -23,7 +23,7 @@ $ yarn generate
 
 ## Testing 🤖
 
-👉🏻 To speed up tests execution during development run the dev server in another terminal executing `yarn dev`, we'll see later how to programmatically build and serve your Nuxt app for Continuous Integration.
+👉🏻 To speed up tests execution during development run the dev server in another terminal executing `yarn dev`.
 
 To execute tests run
 
